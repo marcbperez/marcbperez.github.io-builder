@@ -1,0 +1,57 @@
+---
+lang: en
+title: marcbperez.github.io
+description: Mbp76's website, with professional information and a blog.
+analytics-id: UA-96636667-1
+author-meta:
+  - Mbp76
+keyword:
+  - Computer Science
+  - Software Engineering
+  - Full-stack
+  - Fault-tolerant
+  - Embedded Systems
+  - Responsive Websites
+  - Mobile Applications
+  - Java
+  - Python
+  - C
+  - C++
+  - GoLang
+  - React
+  - Redux
+  - Material Design
+  - Git
+  - Gradle
+  - Docker
+  - docker-compose
+  - Amazon Web Services
+  - Google Cloud Platform
+  - Bare Metal
+  - Highly Scalable
+  - Cluster
+  - Hadoop
+  - HDFS
+  - Cassandra
+  - PostgreSQL
+  - Data analysis
+  - Machine Learning
+  - Spark
+  - Pandas
+  - NumPy
+  - Linux Kernel
+  - Programming
+  - London
+  - Barcelona
+style:
+  - style.css
+script:
+  - https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/prism.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/components/prism-bash.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/components/prism-python.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/components/prism-markdown.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/components/prism-markup.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js
+  - assets/script.js
+  - assets/analytics.js
+...
