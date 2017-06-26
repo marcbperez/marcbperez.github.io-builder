@@ -5,11 +5,13 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 ## Unreleased
 
+## 0.3.0 - 2017-06-26
+
 ### Added
 
   - Site assets, style, template, index and contact pages.
 
-## 0.1.0 - 2017-06-24
+## 0.2.0 - 2017-06-24
 
 ### Added
 
