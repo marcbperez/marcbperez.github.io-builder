@@ -5,6 +5,14 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 ## Unreleased
 
+## 0.3.1 - 2017-06-30
+
+### Fixed
+
+  - Missing Material Design Lite script.
+  - Darken and lighten template functionality.
+  - Template layout and style.
+
 ## 0.3.0 - 2017-06-26
 
 ### Added
