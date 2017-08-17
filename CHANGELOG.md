@@ -5,6 +5,15 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 ## Unreleased
 
+## 0.5.0 - 2017-08-17
+
+### Added
+
+  - Journal section.
+  - Clean Git branching article.
+  - Descriptive Git projects article.
+  - Gradle in Docker article.
+
 ## 0.4.0 - 2017-08-07
 
 ### Added
