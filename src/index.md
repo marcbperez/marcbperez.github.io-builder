@@ -1,20 +1,11 @@
 # Who am I
 
-It all started with 64K. I will never forget walking into my friend's basement
-and seeing his older brother's computer. 386 machines were already on the
-market, I had used them and knew them well, but somehow the idea of playing with
-an old computer that offered nothing else than a manual and a shell appeared to
-be way more interesting.
+I am a computer scientist and software engineer based in Barcelona. I build
+high-quality full-stack applications, fault-tolerant service architectures,
+embedded systems and state of the art websites, responsive experiences and
+mobile applications.
 
-> I am a computer scientist and software engineer based in London. I build
-> high-quality full-stack applications, fault-tolerant service architectures,
-> embedded systems and state of the art websites, responsive experiences and
-> mobile applications.
-
-I was around 10 years old at that time and after that summer I decided that
-programming and solving problems were something I wanted to devote my life to.
-Interested in hiring me or learning a bit more? Take a look at the contact
-section and [get in touch][contact].
+You may want [get in touch][contact] or head to the [journal].
 
 # What I do
 
@@ -45,5 +36,6 @@ The contents of this site are generated from Markdown documents using
 use it to generate your own.
 
 [contact]: contact.html
+[journal]: journal.html
 [markdown-pages]: https://github.com/marcbperez/markdown-pages
 [ouh-citing-guide]: http://www.open.ac.uk/libraryservices/documents/Harvard_citation_hlp.pdf
