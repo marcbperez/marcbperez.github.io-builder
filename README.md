@@ -1,6 +1,6 @@
 # marcbperez.github.io-builder
 
-Mbp76's website, with professional information and a blog. Created with
+Mbpez website, with professional information and a blog. Created with
 [markdown-pages][markdown-pages], a static page generator with Markdown support.
 
 ## Installation
