@@ -18,16 +18,9 @@ find them useful.
 
 To hire me as a professional send an [email] describing your needs and include
 your contact details. I will analyse the project or issue and I will get back as
-soon as possible, usually on the same day. [Call][uk-phone] directly in case of
-an emergency or urgent need. I am mostly available as a contractor although
-permanent roles will also be considered.
-
-  - United Kingdom [+44 (0) 7541 029957][uk-phone]
-  - Spain [+34 604 289 723][spanish-phone]
+soon as possible, usually on the same day.
 
 [docker-hub]: https://hub.docker.com/u/marcbperez/
-[email]: mailto:marcbperez@my.open.ac.uk
+[email]: mailto:marcbperezdev@gmail.com
 [github-gists]: https://gist.github.com/marcbperez
 [github-repository]: https://github.com/marcbperez
-[spanish-phone]: tel:+34604289723
-[uk-phone]: tel:+44(0)7541029957

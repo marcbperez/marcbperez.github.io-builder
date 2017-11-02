@@ -68,7 +68,7 @@ change is detected in the project source or tests folder.
 // Generate the Gradle wrapper.
 task wrapper(type: Wrapper) {
   description "Creates the project wrapper."
-  gradleVersion = "3.4.1"
+  gradleVersion = "4.10"
 }
 
 // Watch for changes when running in continuous build mode.
