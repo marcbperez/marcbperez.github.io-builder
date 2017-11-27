@@ -3,7 +3,8 @@
 Branching is essential when working with Git. This article explains how to work
 collaboratively while developing new enhancements, releasing them and hot-fixing
 issues for those releases. While not official, this is a widely used technique
-described in many other articles and implemented in several clients.
+described in [Vincent Driessen's article][nvie-branching-model] and implemented
+in his famous [git-flow][git-flow] extensions.
 
 ## Main branches
 
@@ -127,13 +128,41 @@ git push origin hotfix-0.1.1 0.1.1 master develop
 - Bitbucket. Pull Requests [online]. Available at
   [https://www.atlassian.com/git/tutorials/making-a-pull-request][bitbucket-pull-request]
   (Accessed 8 August 2017).
+- Git-flow. Project repository [online]. Available at
+  [https://github.com/nvie/gitflow][git-flow]
+  (Accessed 8 August 2017).
 - Github. Creating a pull request [online]. Available at
   [https://help.github.com/articles/creating-a-pull-request/][github-pull-request]
+  (Accessed 8 August 2017).
+- Nvie. A successful Git branching model [online]. Available at
+  [https://nvie.com/posts/a-successful-git-branching-model/][nvie-branching-model]
   (Accessed 8 August 2017).
 
 ---
 
 Last edited on 8 August 2017.
 
+---
+
 [bitbucket-pull-request]: https://www.atlassian.com/git/tutorials/making-a-pull-request
+[git-flow]: https://github.com/nvie/gitflow
 [github-pull-request]: https://help.github.com/articles/creating-a-pull-request/
+[nvie-branching-model]: https://nvie.com/posts/a-successful-git-branching-model/
+
+<p class="flex-center">
+[![LinkedIn](assets/linkedin-icon.png "LinkedIn icon")][linkedin]
+[![Github](assets/github-icon.png "Github icon")][github-repository]
+[![Docker](assets/docker-icon.png "Docker icon")][docker-hub]
+[![NPM](assets/npm-icon.png "NPM icon")][npm]
+[![PyPI](assets/pypi-icon.png "PyPI icon")][pypi]
+[![Launchpad](assets/launchpad-icon.png "Launchpad icon")][launchpad]
+[![Tindie](assets/tindie-icon.png "Tindie icon")][tindie]
+</p>
+
+[docker-hub]: https://hub.docker.com/u/marcbperez/
+[github-repository]: https://github.com/marcbperez
+[launchpad]: https://launchpad.net/~marcbperez/
+[linkedin]: https://linkedin.com/in/marcbperez/
+[npm]: https://npmjs.com/~marcbperez/
+[pypi]: https://pypi.org/user/marcbperez/
+[tindie]: https://tindie.com/stores/marcbperez/
