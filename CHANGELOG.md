@@ -5,6 +5,19 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 ## Unreleased
 
+## 0.7.0 - 2017-11-29
+
+### Added
+
+  - Social icons and links.
+  - Project list page.
+
+### Changed
+
+  - To dependency-free template script.
+  - Word overflow wrappings.
+  - Project owner's name.
+
 ## 0.6.0 - 2017-11-02
 
 ### Changed
