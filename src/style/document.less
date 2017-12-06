@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+@screen-small: 576px; // Small devices (landscape phones).
+@screen-medium: 768px; // Medium devices (tablets).
+@screen-large: 992px; // Large devices (desktops).
+@screen-xlarge: 1200px; // Extra large devices (large desktops).
+@min-width: 320px;
+@max-width: 700px;
+@font-family: 'Open Sans', sans-serif;
+@font-family-alt: 'Roboto', sans-serif;
+@font-size: 100%;
+@line-height: 1.5;
+
+body {
+  font: normal normal normal @font-size/@line-height @font-family;
+  overflow-wrap: break-word;
+  min-width: @min-width;
+  max-width: @max-width;
+  margin: 0;
+}
+
+header, footer { padding: .5rem; }
+main { padding: 0 .5rem; }
+footer { padding-top: 1rem; }
+
+@media (min-width: @screen-small) {
+  header, footer { padding: 1rem; }
+  main { padding: 0 1rem; }
+  footer { padding-top: 2rem; }
+}
+
+@media (min-width: @screen-medium) {
+  header, footer { padding: 2rem; }
+  main { padding: 0 2rem; }
+  footer { padding-top: 4rem; }
+}

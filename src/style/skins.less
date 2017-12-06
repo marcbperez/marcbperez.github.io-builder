@@ -1,0 +1,56 @@
+@import (reference) './document.less';
+
+/* Default skin. */
+
+body {
+  background: url(assets/background.jpg) @max-width top/auto no-repeat fixed;
+
+  &, & * {
+    transition-property: background-color, color, border-color;
+    transition-duration: .5s, .5s, .5s;
+  }
+}
+
+@media (min-width: @screen-large) {
+  body { background-position: 800px; }
+}
+
+/* Light skin. */
+
+@light-color-background: #ffffff;
+@light-color-highlight: #3f51b5;
+@light-color-border: darken(@light-color-background, 20%);
+@light-color: darken(@light-color-background, 70%);
+
+body.light {
+  background-color: @light-color-background;
+  color: @light-color;
+  a { color: @light-color-highlight; }
+
+  img {
+    &[title*=icon],
+    &[title*=screenshot] {
+      border-color: @light-color-border;
+    }
+  }
+}
+
+/* Dark skin. */
+
+@dark-color-background: #000000;
+@dark-color-highlight: #708090;
+@dark-color: lighten(@dark-color-background, 70%);
+@dark-color-border: lighten(@dark-color-background, 20%);
+
+body.dark {
+  background-color: @dark-color-background;
+  color: @dark-color;
+  a { color: @dark-color-highlight; }
+
+  img {
+    &[title*=icon],
+    &[title*=screenshot] {
+      border-color: @dark-color-border;
+    }
+  }
+}
