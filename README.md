@@ -1,6 +1,6 @@
 # marcbperez.github.io-builder
 
-Marcbperez' website, with professional information and a blog. Created with
+Marc B. Perez's website, with professional information and a blog. Created with
 [markdown-pages][markdown-pages], a static page generator with Markdown support.
 
 ## Installation
@@ -67,7 +67,7 @@ refer to the [CHANGELOG][changelog]. Only branches prefixed by *feature-*,
 
 ## Credits
 
-This project is created by [marcbperez][author] and maintained by its
+This project is created by [Marc B. Perez][author] and maintained by its
 [author][author] and contributors.
 
 ## License

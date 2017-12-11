@@ -1,0 +1,64 @@
+@import (reference) './document.less';
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: @font-family-alt;
+}
+
+ul {
+  padding-left: 1.5rem;
+  li { margin: .5rem 0; }
+}
+
+blockquote {
+  margin: 1.5rem;
+
+  p {
+    padding-left: 1rem;
+    border-left: .5rem solid;
+  }
+}
+
+a {
+  &[title*=title] {
+    font-size: 1.5rem;
+  }
+
+  &.uri {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: bottom;
+    max-width: 10em;
+  }
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+
+  &[title*=badge] {
+    height: 1.5rem;
+    margin-right: .08rem;
+  }
+
+  &[title*=icon],
+  &[title*=screenshot] {
+    border: 1px solid;
+  }
+
+  &[title*=icon] {
+    height: 2rem;
+    padding: .25rem;
+    border: 1px solid;
+    border-radius: .3rem;
+  }
+
+  &[title*=screenshot] {
+    box-sizing: border-box;
+    object-fit: cover;
+    object-position: 50% 1%;
+    min-width: 100%;
+    height: 10rem;
+  }
+}

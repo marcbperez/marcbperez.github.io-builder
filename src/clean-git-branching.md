@@ -1,4 +1,5 @@
 # Clean Git branching
+*Last edited on 8 August 2017.*
 
 Branching is essential when working with Git. This article explains how to work
 collaboratively while developing new enhancements, releasing them and hot-fixing
@@ -121,8 +122,6 @@ git merge --no-ff hotfix-0.1.1 -m "Merged hotfix-0.1.1."
 git push origin hotfix-0.1.1 0.1.1 master develop
 ```
 
----
-
 ## References
 
 - Bitbucket. Pull Requests [online]. Available at
@@ -138,31 +137,7 @@ git push origin hotfix-0.1.1 0.1.1 master develop
   [https://nvie.com/posts/a-successful-git-branching-model/][nvie-branching-model]
   (Accessed 8 August 2017).
 
----
-
-Last edited on 8 August 2017.
-
----
-
 [bitbucket-pull-request]: https://www.atlassian.com/git/tutorials/making-a-pull-request
 [git-flow]: https://github.com/nvie/gitflow
 [github-pull-request]: https://help.github.com/articles/creating-a-pull-request/
 [nvie-branching-model]: https://nvie.com/posts/a-successful-git-branching-model/
-
-<p class="flex-center">
-[![LinkedIn](assets/linkedin-icon.png "LinkedIn icon")][linkedin]
-[![Github](assets/github-icon.png "Github icon")][github-repository]
-[![Docker](assets/docker-icon.png "Docker icon")][docker-hub]
-[![NPM](assets/npm-icon.png "NPM icon")][npm]
-[![PyPI](assets/pypi-icon.png "PyPI icon")][pypi]
-[![Launchpad](assets/launchpad-icon.png "Launchpad icon")][launchpad]
-[![Tindie](assets/tindie-icon.png "Tindie icon")][tindie]
-</p>
-
-[docker-hub]: https://hub.docker.com/u/marcbperez/
-[github-repository]: https://github.com/marcbperez
-[launchpad]: https://launchpad.net/~marcbperez/
-[linkedin]: https://linkedin.com/in/marcbperez/
-[npm]: https://npmjs.com/~marcbperez/
-[pypi]: https://pypi.org/user/marcbperez/
-[tindie]: https://tindie.com/stores/marcbperez/

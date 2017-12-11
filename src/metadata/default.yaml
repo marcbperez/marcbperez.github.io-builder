@@ -1,11 +1,10 @@
 ---
 lang: en
-title: marcbperez.github.io
-description: Marcbperez' website, with professional information and a blog.
-analytics-id: UA-96636667-1
+title: Marc B. Perez
+description: Marc B. Perez's website, with professional information and a blog.
 author-meta:
-  - Marcbperez
-keyword:
+  - Marc B. Perez
+keywords:
   - Computer Science
   - Software Engineering
   - Full-stack
@@ -47,7 +46,5 @@ script:
   - https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/components/prism-python.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/components/prism-markdown.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/components/prism-markup.min.js
-  - https://code.getmdl.io/1.3.0/material.min.js
   - assets/script.js
-  - assets/analytics.js
 ...
