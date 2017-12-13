@@ -1,4 +1,5 @@
 # Descriptive Git projects
+*Last edited on 7 August 2017.*
 
 The Code itself is not enough. It certainly does the job, but what about project
 description, standards, keeping track of changes and legal rights? They are
@@ -107,8 +108,6 @@ License or the Creative Commons License. The Open Source Initiative has an
 [extended information page][open-source-licenses] about licenses and standards
 that can be found on their official page.
 
----
-
 ## References
 
   - Apache. Apache License V2 [online]. Available at
@@ -130,33 +129,9 @@ that can be found on their official page.
     [https://en.wikipedia.org/wiki/README][wikipedia-readme]
     (Accessed 7 August 2017).
 
----
-
-Last edited on 7 August 2017.
-
----
-
 [apache-license-v2]: https://www.apache.org/licenses/LICENSE-2.0
 [editorconfig]: http://editorconfig.org
 [keep-a-changelog]: http://keepachangelog.com
 [open-source-licenses]: https://opensource.org/licenses
 [semver]: http://semver.org
 [wikipedia-readme]: https://en.wikipedia.org/wiki/README
-
-<p class="flex-center">
-[![LinkedIn](assets/linkedin-icon.png "LinkedIn icon")][linkedin]
-[![Github](assets/github-icon.png "Github icon")][github-repository]
-[![Docker](assets/docker-icon.png "Docker icon")][docker-hub]
-[![NPM](assets/npm-icon.png "NPM icon")][npm]
-[![PyPI](assets/pypi-icon.png "PyPI icon")][pypi]
-[![Launchpad](assets/launchpad-icon.png "Launchpad icon")][launchpad]
-[![Tindie](assets/tindie-icon.png "Tindie icon")][tindie]
-</p>
-
-[docker-hub]: https://hub.docker.com/u/marcbperez/
-[github-repository]: https://github.com/marcbperez
-[launchpad]: https://launchpad.net/~marcbperez/
-[linkedin]: https://linkedin.com/in/marcbperez/
-[npm]: https://npmjs.com/~marcbperez/
-[pypi]: https://pypi.org/user/marcbperez/
-[tindie]: https://tindie.com/stores/marcbperez/

@@ -7,8 +7,8 @@
 $for(author-meta)$
     <meta name="author" content="$author-meta$">
 $endfor$
-$if(keyword)$
-    <meta name="keywords" content="$for(keyword)$$keyword$,$endfor$">
+$if(keywords)$
+    <meta name="keywords" content="$for(keywords)$$keywords$,$endfor$">
 $endif$
 $if(description)$
     <meta name="description" content="$description$">
@@ -21,47 +21,29 @@ $endfor$
     <link id="prism-css" rel="stylesheet" href="">
   </head>
   <body class="light">
-    <div class="main-layout mdl-layout mdl-layout--fixed-header mdl-js-layout">
-      <header class="header mdl-layout__header mdl-layout__header--scroll">
-        <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">
-            <a href="index.html" class="title-link">$title$</a>
-          </span>
-        </div>
-        <div class="mdl-layout__header-row">
-          <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="index.html">About</a>
-            <a class="mdl-navigation__link" href="contact.html">Contact</a>
-            <a class="mdl-navigation__link" href="journal.html">Journal</a>
-            <a class="mdl-navigation__link" href="projects.html">Projects</a>
-            <a class="mdl-navigation__link toggle-theme" href="#">Darken</a>
-          </nav>
-        </div>
-      </header>
-      <main class="main mdl-layout__content">
-        <div class="main-container mdl-grid">
-          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-          <div class="main-content mdl-shadow--4dp mdl-cell mdl-cell--8-col">$body$</div>
-        </div>
-        <footer class="footer mdl-mini-footer">
-          <div class="mdl-mini-footer--left-section">
-            <ul class="mdl-mini-footer--link-list">
-              <li><a href="index.html">About</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="journal.html">Journal</a></li>
-              <li><a href="projects.html">Projects</a></li>
-              <li><a class="toggle-theme" href="#">Darken</a></li>
-            </ul>
-          </div>
-        </footer>
-      </main>
-    </div>
+    <header>
+      <a href="index.html" title="Site title">$title$</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="journal.html">Journal</a>
+        <a href="projects.html">Projects</a>
+        <a class="toggle-theme" href="#">Darken</a>
+      </nav>
+    </header>
+    <main>$body$</main>
+    <footer>
+      <nav>
+        <a href="https://github.com/marcbperez"><img src="assets/github-icon.png" title="Github icon" alt="Github"></a>
+        <a href="https://hub.docker.com/u/marcbperez/"><img src="assets/docker-icon.png" title="Docker icon" alt="Docker"></a>
+        <a href="https://npmjs.com/~marcbperez/"><img src="assets/npm-icon.png" title="NPM icon" alt="NPM"></a>
+        <a href="https://pypi.org/user/marcbperez/"><img src="assets/pypi-icon.png" title="PyPI icon" alt="PyPI"></a>
+        <a href="https://launchpad.net/~marcbperez/"><img src="assets/launchpad-icon.png" title="Launchpad icon" alt="Launchpad"></a>
+        <a href="https://tindie.com/stores/marcbperez/"><img src="assets/tindie-icon.png" title="Tindie icon" alt="Tindie"></a>
+      </nav>
+    </footer>
 $for(script)$
     <script src="$script$"></script>
 $endfor$
-    <script>
-      ga('create', '$analytics-id$', 'auto');
-      ga('send', 'pageview');
-    </script>
   </body>
 </html>

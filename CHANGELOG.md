@@ -5,6 +5,18 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 ## Unreleased
 
+## 0.8.0 - 2017-12-12
+
+### Changed
+
+  - Main style-sheet improving the existing design.
+  - Content from all pages and articles.
+
+### Removed
+
+  - Analytics, cookies and Material Design Lite.
+  - Unused social icons.
+
 ## 0.7.0 - 2017-11-29
 
 ### Added
